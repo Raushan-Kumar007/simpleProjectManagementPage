@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home-Page</title>
+     <link rel="stylesheet" href="index.css">
+      
+ </head>
+ <body>
+     <header>
+         <span onclick="toggleMenu()">&#9776;</span>
+         Prooject Management App
+    </header>
+    <div class="container"> 
+    <div class="Menu-bar" id="menuList">
+        <ul id="menuList">
+
+        </ul>
+    </div>
+    <div class="container-bar">
+        <div class="container-block">
+             <input type="text" id="searchID" value="" placeholder="eg.new test boad">
+             <button id="add-boad-btn" onclick="addBoard(searchID)">Add Board</button>   
+        </div>
+        <div id="boardblocklist">
+
+        </div>
+        <section class="board-block">
+            
+                
+            
+        </section>
+    </div>
+    </div>
+    <script src="index.js"></script>
+ </body>
+ </html>

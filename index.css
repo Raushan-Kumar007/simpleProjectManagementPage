@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    padding: 1%;
+    background-color: blue;
+    color: aliceblue;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Menu-bar{
+    color: white;
+    width: 20%;
+    background-color: gray;
+    padding: 5%;
+    height: 100vh;
+}
+.container-bar{
+   width:80%;
+   padding: 2%;
+}
+input{
+   padding: 1%;
+   border: 1px solid;
+   width:80%;
+}
+#add-boad-btn{
+   background-color: green;
+   color: white;
+   padding:10px;
+   border:0;
+}
+.container-block{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.project-card{
+   background-color: grey;
+   padding:2%;
+   border-radius:5px;
+   margin:10px 0;
+   color: white;
+   width: 30%;
+}
+.project-block{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.board-block{
+  margin-top: 3%;
+  display: none;
+}
+ .btn{
+    margin: 15px;
+ }
